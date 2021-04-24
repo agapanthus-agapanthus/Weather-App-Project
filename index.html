@@ -5,53 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Checker</title>
-      <link
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    /> 
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-      
-<link href="src/style.css" rel="stylesheet" type="text/css" /> 
-<script
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+    <script
       src="https://kit.fontawesome.com/7e96932325.js"
       crossorigin="anonymous"
-    >
-</script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
-   <div class="container">
   <body>
-      <h1 id = cityHeader>Weather in London</h1>
-     
-
-      <div class="row justify-content-center daily" id=currentCityDetails>
+    <div class="container">
+      <h1 id="cityHeader">Weather in London</h1>
+      <div class="row justify-content-center daily" id="currentCityDetails">
         <div class="col-sm-6">
-              <ul>
-            <list id = temp>Temperature:
-                <span id ="temperature">
-                    13 </span>
-                    <spa>°C
-                      
-                    </span>
-        </list>
-            <list id = time>Day: </list>
-            <list>Sunrise: 6am</list>
-            </ul>
-            </div>
+          <ul>
+            <li id="temp">
+              Temperature:
+              <span id="temperature"> 13 °C </span>
+            </li>
+            <li id="time">Day:</li>
+            <li>Sunrise: 6am</li>
+          </ul>
+        </div>
         <div class="col-sm-6">
-            <i class="fas fa-cloud-sun cloud-sun-icon"></i>
-        </div> 
+          <i class="fas fa-cloud-sun cloud-sun-icon"></i>
+        </div>
       </div>
-       <form class = "search" id = "searchForm">
-        <input type = "search" id = "city-input" type="text" placeholder="Update City" autofocus="on" />
-        <input type = "submit" value = "search"/>
+      <form class="search" id="searchForm">
+        <input
+          type="search"
+          id="city-input"
+          type="text"
+          placeholder="Update City"
+          autofocus="on"
+        />
+        <input type="submit" value="search" />
       </form>
-      <h2 id = forecast >5 Day Forecast</h2>
-      <p class = "days">
-      <div class="container">
+      <h2 id="forecast">5 Day Forecast</h2>
+      <div class="container days">
         <div class="row weekday">
           <div class="col-sm">Monday</div>
           <div class="col-sm">Tuesday</div>
@@ -60,7 +64,6 @@
           <div class="col-sm">Friday</div>
         </div>
       </div>
-      </p>
       <div class="container weather-icon">
         <div class="row weekday">
           <div class="col-sm">
@@ -88,10 +91,9 @@
           <div class="col-sm">13°C</div>
           <div class="col-sm">11°C</div>
         </div>
-      <footer>Coded by Laura Abbott</footer>
       </div>
     </div>
+    <footer>Coded by Laura Abbott</footer>
     <script src="src/index.js"></script>
   </body>
-    </body>
 </html>
