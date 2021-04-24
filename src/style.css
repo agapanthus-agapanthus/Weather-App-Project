@@ -1,0 +1,76 @@
+h1,
+h2 {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 10px;
+}
+
+h2 {
+  display: block;
+  margin: 20px 10px 10px 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+list {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  font-size: auto;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  background-color: #d8ebe4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  margin: 30px;
+}
+
+form {
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+a {
+  color: black;
+}
+.cloud-sun-icon {
+  font-size: 60px;
+  text-align: left;
+}
+
+.five-day-icon {
+  font-size: 30px;
+  text-align: center;
+}
+
+.weekday {
+  text-align: center;
+}
+.celcius {
+  font-family: "Open Sans", sans-serif;
+}
