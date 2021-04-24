@@ -51,25 +51,24 @@ let form = document.querySelector("#searchForm");
 form.addEventListener("submit", search);
 
 //Bonus Challenge Display Temperature in C and F
-function convertToF(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperature = Number(temperature);
-  temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
-}
+//function convertToF(event) {
+//event.preventDefault();
+//let temperatureElement = document.querySelector("#temperature");
+//temperature = Number(temperature);
+//temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
+//}
 
-let temperatureElement = document.querySelector("#temperature");
-let temperature = temperatureElement.innerHTML;
-let fahrenheit = document.querySelector("#fahrenheit");
-fahrenheit.addEventListener("click", convertToF);
+//let temperatureElement = document.querySelector("#temperature");
+//let temperature = temperatureElement.innerHTML;
+//let fahrenheit = document.querySelector("#fahrenheit");
+//fahrenheit.addEventListener("click", convertToF);
 
-function convertToC(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperature = Number(temperature);
-  temperatureElement.innerHTML = 10;
-}
+//function convertToC(event) {
+//event.preventDefault();
+//let temperatureElement = document.querySelector("#temperature");
+//temperature = Number(temperature);
+//}
 
-let celsiusTemp = temperatureElement.innerHTML;
-let celsiusLink = document.querySelector("#celsiusLink");
-celsiusLink.addEventListener("click", convertToC);
+//let celsiusTemp = temperatureElement.innerHTML;
+//let celsiusLink = document.querySelector("#celsiusLink");
+//celsiusLink.addEventListener("click", convertToC);
