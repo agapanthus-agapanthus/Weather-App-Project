@@ -27,7 +27,9 @@ dateTime.innerHTML = formatDate(new Date());
 //Challenge 2 Create Search Engine
 
 function displayWeather(response) {
-  document.querySelector("#cityHeader").innerHTML = response.data.name;
+  document.querySelector(
+    "#cityHeader"
+  ).innerHTML = `Weather in ${response.data.name}`;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
